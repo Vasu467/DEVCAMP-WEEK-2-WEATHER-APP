@@ -1,0 +1,39 @@
+.navbar{
+  text-align: center;
+  padding: 10px 20px;
+  background: linear-gradient(45deg,#94bac6, #446ad0, #2b0b45  );
+}
+.submit {
+  border: none;
+  background: rgb(38, 190, 38);
+  border-radius: 10px;
+  padding: 8px 16px;
+  color: black;
+  margin-left: 10px;
+}
+.submit:hover{
+  background: rgb(38, 148, 38);
+  cursor: pointer;
+  color: white;
+}
+input{
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  outline: none;
+}
+.container{
+  padding: 20px;
+  color: white;
+}
+.back{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
