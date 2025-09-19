@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="my style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <form>
+                <input id="text" type="text" placeholder="Enter City Name">
+                <button type="submit" class="submit">Search</button>
+            </form>
+        </div>
+        <div class="back">
+            <div class="container">
+                <p id="temp"><b>Current Temp :</b> </p> <br>
+                <p id="feels"><b>Feels Like :</b></p> <br>
+                <p id="max-temp"><b>Max Temp :</b> </p> <br>
+                <p id="min-temp"><b>Min Temp :</b> </p> <br>
+                <p id="wind"><b>Wind :</b> </p> <br>
+                <p id="clouds"><b>Clouds :</b> </p> <br>
+                <p id="sunrise"><b>Sunrise :</b> </p> <br>
+                <p id="sunset"><b>Sunset :</b> </p> <br>
+            </div>
+            <iframe
+                src="https://www.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="600" 
+                height="500" 
+                style="border:0;" 
+                loading="lazy" 
+            ></iframe>
+        </div>
+        <script src="my script.js"></script>
+    </body>
+</html>
